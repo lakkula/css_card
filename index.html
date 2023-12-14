@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h2{color: brown;}
+        td,th{border: 1px solid black; padding: 3px;}
+        .about-me-outer-div{background-color: powderblue;
+        transition: 0.5s;}
+        .about-me-outer-div:hover{background-color: rgb(182, 113, 182);
+        border-radius: 20px; transition: 0.5s;}
+        tr:nth-child(even){background-color: gray;}
+        a img{width: 20px;}
+        #registerinfo::first-letter{ font-size: 40px;}
+        input:out-of-range{color: red;}
+    </style>
+</head>
+<body>
+    <div style="background-color: skyblue; display: flex;
+    justify-content: center;">
+        <div style="border: 1px solid black; padding: 20px;
+        border-radius: 20px;">
+    <h1 style="color: teal;">How to learn React</h1>
+    <h2>What is React</h2>
+    <p>ReactJS is a JavaScript library for building user intrfaces</p>
+    <h2>What will you learn</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+    </ol>
+    <table style="border-collapse: collapse; background-color: white;">
+        <thead>
+            <th>Number</th>
+            <th>Title</th>
+            <th>Description</th>
+        </thead>
+        <tr>
+            <td>01</td>
+            <td>HTML</td>
+            <td>Basic HTML syntax and elements</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>CSS</td>
+            <td>CSS selectors and how to use</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>JS</td>
+            <td>Core concepts of JS as a programming language</td>
+        </tr>
+    </table>
+    <hr/>
+    <h2>About the Instructor</h2>
+    <div class="about-me-outer-div" style="display: flex; justify-content: space-around;">
+        <div>
+    <h3>Kulani Lakshika</h3>
+    <p>Student</p>
+    <div style="display: flex; justify-content: space-around;">
+    <a href="https://instagram.com/kulanilakshika?igshid=NGVhN2U2NjQ0Yg==">
+        <img src="png-transparent-instagram-instagram-logo-3d-instagram-logo-social-media-logo-application-3d-icon-thumbnail.png"
+        alt="insta"/>
+    </a>
+    <a href="https://instagram.com/kulanilakshika?igshid=NGVhN2U2NjQ0Yg==">
+        <img src="png-transparent-instagram-instagram-logo-3d-instagram-logo-social-media-logo-application-3d-icon-thumbnail.png"
+        alt="fb"/>
+    </a>
+    <a href="https://instagram.com/kulanilakshika?igshid=NGVhN2U2NjQ0Yg==">
+        <img src="png-transparent-instagram-instagram-logo-3d-instagram-logo-social-media-logo-application-3d-icon-thumbnail.png"
+        alt="tw"/>
+    </a>
+    <a href="https://instagram.com/kulanilakshika?igshid=NGVhN2U2NjQ0Yg==">
+        <img src="png-transparent-instagram-instagram-logo-3d-instagram-logo-social-media-logo-application-3d-icon-thumbnail.png"
+        alt="li"/>
+    </a>
+</div>
+</div>
+    <img src="student_PNG127.png"
+    alt="Kuani Lakshika" width="100px"/>
+</div>
+<h2>Registration</h2>
+<p id="registerinfo">To register for the course, you must provide the <span style="font-weight: bold;">information</span></p>
+<div style="display: flex; justify-content: space-around; font-size: 20px; align-items: center;">
+<p>Your age</p>
+<input type="number" min="13" max="100"/>
+</div>
+</div>
+</div>
+</body>
+</html>
